@@ -3,23 +3,34 @@ body {
 	background-size: cover;
 }
 
-#home {
+#circleHome {
 	position: fixed;
+	border-radius: 50%;
+	padding: 50px;
+    width: 500px;
+    height: 500px;
   	top: 45%;
   	left: 50%;
   	transform: translate(-50%, -50%);
+  	background: blue;
 }
 
 #icon_box {
 	position: relative;
-	top: 50%;
+	top: 10%;
   	left: 60%;
 	transform: translate(-50%, -50%);
 }
 
 #name {
-	color: black;
+	position: relative;
+	vertical-align: 60%;
+	color: white;
 	text-decoration: none;
+}
+
+#name:hover{
+	color:grey;
 }
 
 .icon {}
@@ -29,12 +40,4 @@ h1 {
 	color:#000000;
 	font-family:courier;
 	font-size:55pt;
-}
-
-a:visited{
-	color:#000000;
-}
-
-a:hover{
-	color:grey;
 }
