@@ -3,23 +3,40 @@ body {
 	background-size: cover;
 }
 
-#home {
+#circleHome {
 	position: fixed;
+	border-radius: 50%;
+	padding: 0px;
+    width: 500px;
+    height: 500px;
   	top: 45%;
   	left: 50%;
   	transform: translate(-50%, -50%);
+  	background: black;
+  	white-space: nowrap;
 }
 
-#icon_box {
-	position: relative;
-	top: 50%;
-  	left: 60%;
+#nameBox {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#iconBox {
+	position: absolute;
+	top: 60%;
+  	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 #name {
-	color: black;
+	color: white;
 	text-decoration: none;
+}
+
+#name:hover{
+	color:grey;
 }
 
 .icon {}
@@ -28,13 +45,5 @@ h1 {
 	text-align: center;
 	color:#000000;
 	font-family:courier;
-	font-size:55pt;
-}
-
-a:visited{
-	color:#000000;
-}
-
-a:hover{
-	color:grey;
+	font-size:50pt;
 }
